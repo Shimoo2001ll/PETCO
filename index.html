@@ -18,31 +18,38 @@
 <body>
     <section id="header">
         <header class="bg-light ">
-            <nav class=" nav p-2 pe-5 ps-5 justify-content-between">
-                <div id="logo" class="text-capitalize fs-1">
-                    pecto
-                </div>
-                <div class="text-capitalize">
-                    <ul class="nav">
-                        <li class="nav-item ">
-                            <a class="nav-link active " href="# " aria-current="page ">home</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link " href="# ">services</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link  " href="# "> gallary</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link  " href="# "> contact us</a>
-                        </li>
-                    </ul>
+            <nav class="navbar navbar-expand-lg navbar-expand-md navbar-light bg-light  p-2 pe-5 ps-5   ">
+                <div class="row w-100">
+                    <div id="logo" class="col-5  text-capitalize fs-1 ">
+                        pecto
+                    </div>
+                    <button class="navbar-toggler col-6 w-25 ms-5 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon p-0 "></span>
+                  </button>
+                    <div class="col-6 collapse navbar-collapse  text-capitalize  me-auto" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item ">
+                                <a class="nav-link active " href="# " aria-current="page ">home</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="# ">services</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link  " href="# "> gallary</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link  " href="# "> contact us</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
             <div class="landing row text-capitalize">
                 <div class="intro col   mt-5 ms-5 ps-5 d-none  d-sm-block">
                     <p><span class="f-l"> find your perfect, </span> <br>
                         <span class="s-l">kindness home mate..... </span><br> <small class="text-muted text-lowercase fs-7">find your futured friend here Lorem Ipsum is simply dummy text of the printing and typesetting industry.</small></p>
+                    <button class="btn btn-outline-primary  p-2 m-2">search</button>
+                    </buttonc>
                 </div>
                 <div class="col  mt-5 ms-5 ps-5">
                     <img src="./petco img/unsplash_g2FtlFrc164.png" alt="cute dog" title="cute dog" width="60%">
@@ -51,10 +58,11 @@
             </headerc>
 
     </section>
-
-    <script src="style/bootstrap/js/bootstrap.js"></script>
+    <script src="style/bootstrap/js/bootstrap.js">
+    </script>
     <script src="style/bootstrap/js/code.jquery.com_jquery-3.7.0.min.js"></script>
     <script src="style/bootstrap/js/unpkg.com_@popperjs_core@2.11.8_dist_umd_popper.min.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
