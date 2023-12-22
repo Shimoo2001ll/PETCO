@@ -74,14 +74,14 @@
             font-size: 30px;
         }
         
-        .btn-outline-primary {
+        .landing .btn-outline-primary {
             letter-spacing: 1.4px;
             text-transform: capitalize;
             font-weight: 700;
             transition: var(--main-transition) !important;
         }
         
-        .btn-outline-primary:focus {
+        .landing .btn-outline-primary:focus {
             background-color: #7AC6F6 !important;
             outline: none !important;
             border: none !important;
@@ -113,6 +113,9 @@
         
         .container {
             display: flex !important;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
         }
         /*  addtion section  */
         
@@ -124,7 +127,7 @@
             color: var(--hovre-color);
             letter-spacing: 1.4px;
             font-weight: 500;
-            transition: var(--main-transition);
+            /* transition: var(--main-transition); */
         }
         
         #addtionSection a.btn:hover {
@@ -147,5 +150,27 @@
             font-weight: 600 !important;
             font-size: 23px;
             text-transform: capitalize;
-            letter-spacing: 1.6px;
+            letter-spacing: 1.2px;
+        }
+        
+        .card span {
+            font-size: 14px;
+            font-weight: lighter;
+        }
+        
+        .showMOre {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            /* display: none; */
+        }
+        /* gallary */
+        
+        #gallary {
+            padding: 10% 4%;
+        }
+        
+        #gallary .container div {
+            margin: 1%;
         }
