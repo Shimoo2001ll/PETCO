@@ -138,4 +138,14 @@
         .card {
             background-color: var(--main-backgroound-color) !important;
             border: none !important;
+            margin: 2% 1%;
+        }
+        
+        .card-body p {
+            margin: 1%;
+            padding: 1%;
+            font-weight: 600 !important;
+            font-size: 23px;
+            text-transform: capitalize;
+            letter-spacing: 1.6px;
         }
