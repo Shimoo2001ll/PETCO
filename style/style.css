@@ -11,7 +11,7 @@
             --text-color: #252525;
             --main-backgroound-color: #F2F8FC;
             --hovre-color: #7AC6F6;
-            --main-transition: all 1s;
+            --main-transition: all .7s linear;
         }
         
         .mainTitle {
@@ -118,4 +118,24 @@
         
         #addtionSection {
             padding: 10% 4%;
+        }
+        
+        #addtionSection a.btn {
+            color: var(--hovre-color);
+            letter-spacing: 1.4px;
+            font-weight: 500;
+            transition: var(--main-transition);
+        }
+        
+        #addtionSection a.btn:hover {
+            font-size: 18px !important;
+            padding: 1%;
+            margin: 1%;
+            font-weight: 700;
+            border-bottom: 1px solid #7AC6F6;
+        }
+        
+        .card {
+            background-color: var(--main-backgroound-color) !important;
+            border: none !important;
         }
