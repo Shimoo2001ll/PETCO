@@ -145,14 +145,14 @@
         .card {
             background-color: var(--main-backgroound-color) !important;
             border: none !important;
-            margin: 2% 1%;
+            margin: 2% 0;
         }
         
         .card-body p {
             margin: 1%;
             padding: 1%;
             font-weight: 600 !important;
-            font-size: 23px;
+            /* font-size: 23px; */
             text-transform: capitalize;
             letter-spacing: 1.2px;
         }
@@ -175,6 +175,19 @@
             padding: 10% 4%;
         }
         
-        #gallary .container div {
-            margin: 1%;
+        #gallaryv.row div {
+            width: 30px !important;
+            padding: 0 !important;
+            margin: 0 !important;
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #gallaryv.row div img {
+            padding: 0 !important;
+            margin: 0 !important;
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
         }
